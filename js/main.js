@@ -10,6 +10,10 @@ $( document ).ready(function(){
     }
   });
 
+/* Change the hashchange offset */
 
+window.addEventListener("hashchange", function () {
+    window.scrollTo(window.scrollX, window.scrollY - 100);
+});
 
 });
