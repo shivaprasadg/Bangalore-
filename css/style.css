@@ -798,3 +798,10 @@ h1.title {
     color: white;
       text-align: center;
 }
+.img-res
+{
+display: block;
+max-width: 100%;
+height: auto;
+margin-bottom: 3rem;
+}
